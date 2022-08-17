@@ -1,0 +1,25 @@
+.header {
+	background: url('./../img/header-bg.jpg');
+	background-size: 100% auto;
+
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.nav__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.navigation {
+	display: flex;
+	column-gap: 55px;
+}

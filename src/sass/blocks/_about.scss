@@ -1,0 +1,17 @@
+.about__row {
+	display: flex;
+
+	margin-top: 200px;
+
+	column-gap: 135px;
+}
+
+.about-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.about-text__title {
+	margin-bottom: 45px;
+}
