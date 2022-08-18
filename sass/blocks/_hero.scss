@@ -1,0 +1,33 @@
+.hero-title {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 140%;
+
+	margin-bottom: 50px;
+}
+
+.hero-date {
+	display: flex;
+	column-gap: 30px;
+
+	& li {
+		text-align: center;
+		background: #121212;
+
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.hero-date__time {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 140%;
+}
+
+.hero-date__title {
+	line-height: 140%;
+	opacity: 0.4;
+}

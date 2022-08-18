@@ -1,0 +1,83 @@
+.study-wrapper {
+	background: #121212;
+}
+
+.study {
+	display: flex;
+	align-items: center;
+
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.study-sale__btn {
+	font-weight: 700;
+}
+
+.study__people {
+	display: flex;
+	align-items: center;
+}
+
+.study__people--course {
+	display: flex;
+}
+
+.study__people--course-title {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+
+	margin-left: 80px;
+
+	opacity: 0.4;
+}
+
+.study__people--course-count {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+
+	margin-left: 30px;
+
+	font-weight: 700;
+}
+
+.study__people--money {
+	margin-left: 80px;
+}
+
+.study__people--money-all {
+	display: flex;
+	column-gap: 30px;
+
+	&-title {
+		opacity: 0.4;
+	}
+
+	&-coin {
+		font-weight: 700;
+	}
+}
+
+.money {
+	width: 715px;
+	height: 6px;
+
+	-webkit-appearance: none
+}
+
+::-webkit-progress-bar {
+	background-color: $white;
+}
+
+::-webkit-progress-value {
+	background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.study__people--money-nav {
+	display: flex;
+	justify-content: space-between;
+
+	opacity: 0.4;
+}
